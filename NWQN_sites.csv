@@ -1,0 +1,130 @@
+# These data have not received director's approval and as such are provisional and are subject to revision. The data are released on the conditions that neither the USGS nor the United States Government may be held liable for any damages resulting from its use.,,,,,,,,,,
+#,,,,,,,,,,
+#SITE_ABB: A text abbreviation of the site name primarily for use within the National Water Quality Program,,,,,,,,,,
+#SITE_QW_ID: Unique USGS station number indicating location where water-quality samples are collected (Note that opening this file in Excel may cause leading zeros to be dropped from this field unless imported into an open worksheet and changing columns A and B to text),,,,,,,,,,
+#SITE_QW_NAME: Unique USGS station name indicating where water-quality samples are collected.,,,,,,,,,,
+#DA: Drainage area upstream from the water-quality sampling location in square miles. Drainage area is displayed as NA for Mississippi and Atchafalaya River sites downstream from the Old River diversion.,,,,,,,,,,
+#QW_LAT: Latitude where water-quality samples are collected,,,,,,,,,,
+#QW_LONG: Longitude where water-quality samples are collected.,,,,,,,,,,
+#SITE_FLOW_ID: Typically a unique USGS station number indicating location where streamflow data is recorded. In some instances these data are obtained from outside sources--in those cases the site number used by that entity is displayed, if no site number is available an abbreviated indicator of the collecting agency is displayed  (Note that opening this file in Excel may cause leading zeros to be dropped from this field unless imported into an open worksheet and changing columns A and B to text) ,,,,,,,,,
+#SITE_FLOW_NAME: Unique USGS station name indicating where streamflow associated with water-quality samples are collected. In some instances these data are obtained from outside sources--in those cases the site name used by that entity is displayed,,,,,,,,,,
+#FLOW_LAT: Latitude of site where streamflow data associated with the water-quality sampling was located.,,,,,,,,,,
+#FLOW_LONG: Longitude of site where streamflow data associated with the water-quality sampling was located.,,,,,,,,,,
+#SITE_TYPE: Character representation of the type of monitoring site,,,,,,,,,,
+SITE_ABB,SITE_QW_ID,SITE_QW_NAME,DA,QW_LAT,QW_LONG,SITE_FLOW_ID,SITE_FLOW_NAME,FLOW_LAT,FLOW_LONG,SITE_TYPE
+GILE,1054200,"Wild River at Gilead, Maine",69.6,44.390556,-70.979722,1054200,"Wild River at Gilead, Maine",44.390556,-70.979722,Reference
+COLR,1170100,"Green River near Colrain, MA",41.4,42.703417,-72.670647,1170100,"Green River near Colrain, MA",42.703417,-72.670647,Reference
+THOM,1184000,"Connecticut River at Thompsonville, CT",9660,41.987319,-72.605367,1184000,"Connecticut River at Thompsonville, CT",41.987319,-72.605367,Coastal Rivers
+WINN,1209710,"Norwalk River at Winnipauk, CT",33,41.135374,-73.426231,1209700,"Norwalk River a T South Wilton, CT",41.163767,-73.419544,Urban
+CANA,1349150,"Canajoharie Creek near Canajoharie, NY",59.7,42.876111,-74.603056,1349150,"Canajoharie Creek near Canajoharie, NY",42.876111,-74.603056,Agriculture
+POUG,1372043,"Hudson River near Poughkeepsie, NY",11700,41.72176,-73.940693,1372058,"Hudson River below Poughkeepsie, NY",41.650927,-73.944582,Coastal Rivers
+CLAY,1435000,"Neversink River near Claryville, NY",66.6,41.89,-74.59,1435000,"Neversink River near Claryville, NY",41.89,-74.59,Reference
+TREN,1463500,"Delaware River at Trenton, NJ",6780,40.221667,-74.778056,1463500,"Delaware River at Trenton, NJ",40.221667,-74.778056,Coastal Rivers
+BYRN,1466500,McDonalds Branch in Byrne State Forest NJ,2.35,39.885,-74.505278,1466500,McDonalds Branch in Byrne State Forest NJ,39.885,-74.505278,Reference
+RENO,1545600,"Young Womans Creek near Renovo, PA",46.2,41.389512,-77.690819,1545600,"Young Womans Creek near Renovo, PA",41.389512,-77.690819,Reference
+CONO,1578310,"Susquehanna River at Conowingo, MD",27100,39.657913,-76.174175,1578310,"Susquehanna River at Conowingo, MD",39.657913,-76.174175,Coastal Rivers
+WARD,1610400,"Waites Run near Wardensville, WV",12.6,39.042722,-78.598333,1610400,"Waites Run near Wardensville, WV",39.042722,-78.598333,Reference
+WASH,1646580,"Potomac River at Chain Bridge at Washington, DC",11570,38.929555,-77.116923,1646500,"Potomac River near Washington, DC, Little Falls pump station",38.949778,-77.127639,Coastal Rivers
+ANNA,1654000,"Accotink Creek near Annandale, VA",23.9,38.812891,-77.228316,1654000,"Accotink Creek near Annandale, VA",38.812891,-77.228316,Urban
+APEX,2087580,"Swift Creek near Apex, NC",21,35.718889,-78.752222,2087580,"Swift Creek near Apex, NC",35.718889,-78.752222,Urban
+KINS,2089500,"Neuse River at Kinston, NC",2692,35.257778,-77.585556,2089500,"Neuse River at Kinston, NC",35.257778,-77.585556,Large Inland Rivers
+HOOK,2091500,"Contentnea Creek at Hookerton, NC",733,35.428889,-77.5825,2091500,"Contentnea Creek at Hookerton, NC",35.428889,-77.5825,Agriculture
+GIVH,2175000,"Edisto River near Givhans, SC",2730,33.027946,-80.391488,2175000,"Edisto River near Givhans, SC",33.027946,-80.391488,Coastal Rivers
+EVER,2226160,"Altamaha River near Everett City, GA",14000,31.427167,-81.605386,2226000,"Altamaha River at Doctortown, GA",31.654659,-81.827892,Coastal Rivers
+SOPC,2327100,"Sopchoppy River near Sopchoppy, FL",102,30.129369,-84.494348,2327100,"Sopchoppy River near Sopchoppy, FL",30.129369,-84.494348,Reference
+MARI,2335870,"Sope Creek near Marietta, GA",30.7,33.953889,-84.443333,2335870,"Sope Creek near Marietta, GA",33.953889,-84.443333,Urban
+WHIT,2338000,"Chattahoochee River near Whitesburg, GA",2430,33.477058,-84.900772,2338000,"Chattahoochee River near Whitesburg, GA",33.477058,-84.900772,Large Inland Rivers
+FRAN,2338523,"Hillibahatchee Creek near Franklin, GA",16.8,33.340672,-85.22689,2338523,"Hillibahatchee Creek near Franklin, GA",33.340672,-85.22689,Reference
+SUMA,2359170,"Apalachicola River near Sumatra, FL",19200,29.949371,-85.015469,2359170,"Apalachicola River near Sumatra, FL",29.949371,-85.015469,Coastal Rivers
+MONR,2429500,Alabama River at Claiborne AL,21967,31.546827,-87.512491,2428400,"Alabama River at Claiborne L&D near Monroeville, AL",31.615158,-87.550548,Coastal Rivers
+COFF,2469762,"Tombigbee River near Coffeeville, AL",18417,31.757102,-88.12501,2469761,"Tombigbee River near Coffeeville, AL",31.758491,-88.129176,Large Inland Rivers
+CANN,3303280,"Ohio River at Cannelton Dam at Cannelton, IN",97000,37.899501,-86.705542,3303280,"Ohio River at Cannelton Dam at Cannelton, IN",37.899501,-86.705542,Large Inland Rivers
+HAZL,3374100,"White River at Hazleton, IN",11305,38.48977,-87.550023,3374000,"White River At Petersburg, IN",38.510882,-87.289458,Large Inland Rivers
+NEWH,3378500,"Wabash River at New Harmony, IN",29234,38.13199,-87.940308,3377500,"Wabash River at Mt. Carmel, IL",38.398333,-87.756389,Large Inland Rivers
+TOWN,3497300,"Little River above Townsend, TN",106,35.664533,-83.711282,3497300,"Little River above Townsend, TN",35.664533,-83.711282,Reference
+PADU,3609750,"Tennessee River at Highway 60 near Paducah, KY",40330,37.037835,-88.52949,TVA,Kentucky Dam outflow (obtained from USGS KY WSC),37.037835,-88.52949,Large Inland Rivers
+GRAN,3612600,"Ohio River at Olmsted, IL",203000,37.179219,-89.058404,3612600,"Ohio River at Olmsted, IL",37.179219,-89.058404,Large Inland Rivers
+FENC,4063700,"Popple River near Fence, WI",139,45.763611,-88.463611,4063700,"Popple River near Fence, WI",45.763611,-88.463611,Reference
+STER,4161820,"Clinton River at Sterling Heights, MI",309,42.614478,-83.026593,4161820,"Clinton River at Sterling Heights, MI",42.614478,-83.026593,Urban
+WATE,4193500,"Maumee River at Waterville, OH",6330,41.500053,-83.712715,4193500,"Maumee River at Waterville, OH",41.500053,-83.712715,Large Inland Rivers
+MASS,4264331,"St. Lawrence River at Cornwall, Ontario, near Massena, NY",298800,45.006111,-74.795,4264331,"St. Lawrence River at Cornwall, Ontario, near Massena, NY",45.006111,-74.795,Large Inland Rivers
+SWIF,5014300,Swiftcurrent Cr ab Swiftcurrent Lk at Many Glacier,15.8,48.795444,-113.680583,5014300,Swiftcurrent Cr ab Swiftcurrent Lk at Many Glacier,48.795444,-113.680583,Reference
+FORK,5082500,"Red River of the North at Grand Forks, ND",30100,47.926923,-97.029244,5082500,"Red River of the North at Grand Forks, ND",47.926923,-97.029244,Large Inland Rivers
+ELYM,5124480,"Kawishiwi River near Ely, MN",254,47.922675,-91.535126,5124480,"Kawishiwi River near Ely, MN",47.922675,-91.535126,Reference
+SHIN,5288705,"Shingle Creek at Minneapolis, MN",28,45.049965,-93.310227,5288705,"Shingle Creek at Minneapolis, MN",45.049965,-93.310227,Urban
+HAST,5331580,"Mississippi River at Hastings, MN",37100,44.745833,-92.847778,5331580,"Mississippi River at Hastings, MN",44.745833,-92.847778,Large Inland Rivers
+CLIN,5420500,"Mississippi River at Clinton, IA",85600,41.780586,-90.252073,5420500,"Mississippi River at Clinton, IA",41.780586,-90.252073,Large Inland Rivers
+PROV,5451210,"South Fork Iowa River near New Providence, IA",224,42.315083,-93.152056,5451210,"South Fork Iowa River near New Providence, IA",42.315083,-93.152056,Agriculture
+WAPE,5465500,"Iowa River at Wapello, IA",12500,41.178086,-91.182094,5465500,"Iowa River at Wapello, IA",41.178086,-91.182094,Large Inland Rivers
+KEOS,5490500,"Des Moines River at Keosauqua, IA",14038,40.727806,-91.959617,5490500,"Des Moines River at Keosauqua, IA",40.727806,-91.959617,Large Inland Rivers
+VALL,5586100,"Illinois River at Valley City, IL",26743,39.70338,-90.645405,5586100,"Illinois River at Valley City, IL",39.70338,-90.645405,Large Inland Rivers
+GRAF,5587455,"Mississippi River Below Grafton, IL",171300,38.951159,-90.371226,5587450,"Mississippi River at Grafton, IL",38.967972,-90.429,Large Inland Rivers
+SIDN,6329500,"Yellowstone River near Sidney, MT",69083,47.677414,-104.155411,6329500,"Yellowstone River near Sidney, MT",47.677414,-104.155411,Large Inland Rivers
+OMAH,6610000,"Missouri River at Omaha, NE",322800,41.258887,-95.922514,6610000,"Missouri River at Omaha, NE",41.258887,-95.922514,Large Inland Rivers
+DENV,6713500,"Cherry Creek at Denver, CO1",410,39.742487,-104.999982,6713500,"Cherry Creek at Denver, CO",39.742487,-104.999982,Urban
+KERS,6754000,"South Platte River near Kersey, CO",9661,40.411925,-104.562737,6754000,"South Platte River near Kersey, CO (operated by Colorado Division of Water Resources)",40.411925,-104.562737,Large Inland Rivers
+THED,6775900,"Dismal River near Thedford, NE",966,41.778611,-100.525278,6775900,"Dismal River near Thedford, NE",41.778611,-100.525278,Reference
+NICK,6800000,"Maple Creek near Nickerson, NE",368,41.561167,-96.540833,6800000,"Maple Creek near Nickerson, NE",41.561167,-96.540833,Agriculture
+ELKH,6800500,"Elkhorn River at Waterloo, NE",6900,41.293333,-96.283889,6800500,"Elkhorn River at Waterloo, NE",41.293333,-96.283889,Large Inland Rivers
+LOUI,6805500,"Platte River at Louisville, NE",85370,41.015278,-96.157778,6805500,"Platte River at Louisville, NE",41.015278,-96.157778,Large Inland Rivers
+DESO,6892350,"Kansas River at DeSoto, KS",59756,38.983337,-94.964689,6892350,"Kansas River at DeSoto, KS",38.983337,-94.964689,Large Inland Rivers
+SUMN,6902000,"Grand River near Sumner, MO",6880,39.640028,-93.273694,6902000,"Grand River near Sumner, MO",39.640028,-93.273694,Large Inland Rivers
+STTH,6926510,"Osage River near St. Thomas, MO",14584,38.421444,-92.20825,6926510,"Osage River near St. Thomas, MO",38.421444,-92.20825,Large Inland Rivers
+HERM,6934500,"Missouri River at Hermann, MO",522500,38.709806,-91.4385,6934500,"Missouri River at Hermann, MO",38.709806,-91.4385,Large Inland Rivers
+THEB,7022000,"Mississippi River at Thebes, IL",713200,37.2216,-89.462975,7022000,"Mississippi River at Thebes, IL",37.2216,-89.462975,Large Inland Rivers
+FIFT,7060710,"North Sylamore Creek near Fifty Six, AR",58.1,35.991667,-92.213889,7060710,"North Sylamore Creek near Fifty Six, AR",35.991667,-92.213889,Reference
+SEDG,7144100,"Little Arkansas River near Sedgwick, KS",1239,37.883067,-97.424486,7144100,"Little Arkansas River near Sedgwick, KS",37.883067,-97.424486,Large Inland Rivers
+HARR,7241550,"North Canadian River near Harrah, OK",13775,35.500341,-97.193919,7241550,"North Canadian River near Harrah, OK",35.500341,-97.193919,Large Inland Rivers
+LITT,7263620,"Arkansas River at David D Terry Lock and Dam below Little Rock, AR",158429,34.681111,-92.151389,7263450,"Arkansas River at Murray Dam near Little Rock, AR (From COE dam outflow)",34.793056,-92.358333,Large Inland Rivers
+LELA,7288650,"Bogue Phalia near Leland, MS",484,33.396667,-90.847778,7288650,"Bogue Phalia near Leland, MS",33.396667,-90.847778,Agriculture
+LONG,7288955,"Yazoo River below Steele Bayou near Long Lake, MS",13355,32.444167,-90.914167,7288955,"Yazoo River below Steele Bayou near Long Lake, MS",32.444167,-90.914167,Large Inland Rivers
+ALEX,7355500,"Red River at Alexandria, LA",67500,31.31296,-92.442915,USACE,Red River at Alexandria (operated by U.S. Army Corps of Engineers Vicksburg Office),31.31296,-92.442915,Large Inland Rivers
+STFR,7373420,"Mississippi River near St. Francisville, LA",NA,30.758517,-91.395946,USACE-01100,"Mississippi River at Tarbert Landing, MS (http://rivergages.mvr.usace.army.mil)",30.758517,-91.395946,Large Inland Rivers
+BATO,7374000,"Mississippi River at Baton Rouge, LA",NA,30.445667,-91.191556,7374000,"Mississippi River at Baton Rouge, LA",30.445667,-91.191556,Large Inland Rivers
+BELL,7374525,"Mississippi River at Belle Chasse, LA",NA,29.857151,-89.977847,7374525,"Mississippi River at Belle Chasse, LA",29.857151,-89.977847,Coastal Rivers
+MELV,7381495,"Atchafalaya  River at Melville, LA",NA,30.690743,-91.736226,USACE-03045,"Atchafalaya River at Simmesport, LA (http://rivergages.mvr.usace.army.mil)",30.690743,-91.736226,Large Inland Rivers
+CALU,7381590,"Wax Lake Outlet at Calumet, LA",NA,29.697986,-91.372885,7381590,"Wax Lake Outlet at Calumet, LA",29.697986,-91.372885,Large Inland Rivers
+MORG,7381600,"Lower Atchafalaya River at Morgan City, LA",NA,29.692819,-91.211937,7381600,"Lower Atchafalaya River at Morgan City, LA",29.692819,-91.211937,Coastal Rivers
+OBER,8014500,"Ouiska Chitto Creek near Oberlin, LA",510,30.69875,-92.893194,8014500,"Ouiska Chitto Creek near Oberlin, LA",30.69875,-92.893194,Reference
+WDAL,8057200,"White Rock Creek at Dallas, TX",66.4,32.889292,-96.756666,8057200,"White Rock Creek at Dallas, TX",32.889292,-96.756666,Urban
+TDAL,8057410,"Trinity River below Dallas, TX",6278,32.707631,-96.735832,8057410,"Trinity River below Dallas, TX",32.707631,-96.735832,Large Inland Rivers
+ROSH,8116650,"Brazos River near Rosharon, TX",45339,29.349686,-95.582445,8116650,"Brazos River near Rosharon, TX",29.349686,-95.582445,Coastal Rivers
+CONC,8195000,"Frio River at Concan, TX",389,29.488565,-99.704776,8195000,"Frio River at Concan, TX",29.488565,-99.704776,Reference
+ELPA,8364000,"Rio Grande at El Paso, TX",32210,31.802885,-106.540822,IBWC-08-3640,"Rio Grande at El Paso, Texas (http://www.ibwc.state.gov/wad/DDQPASOR.htm)",31.802885,-106.540822,Large Inland Rivers
+BROW,8475000,"Rio Grande near Brownsville, TX",176333,25.876748,-97.454426,IBWC-08-4750,"Rio Grande near Brownsville, TX, and Matamoros, Tamaulipas, Mexico (http://www.ibwc.state.gov)",25.876748,-97.454426,Coastal Rivers
+COLO,9163500,Colorado River near Colorado-Utah State Line,17849,39.13276,-109.027055,9163500,Colorado River near Colorado-Utah state line,39.13276,-109.027055,Large Inland Rivers
+FREM,9196500,"Pine Creek above Freemont Lake, WY",75.8,43.027056,-109.773528,9196500,"Pine Creek above Freemont Lake, WY",43.027056,-109.773528,Reference
+BAYF,9352900,"Vallecito Creek near Bayfield, CO",72.5,37.477501,-107.543669,9352900,"Vallecito Creek near Bayfield, CO",37.477501,-107.543669,Reference
+LEES,9380000,"Colorado River at Lees Ferry, AZ",111800,36.86471,-111.588216,9380000,"Colorado River at Lees Ferry, AZ",36.86471,-111.588216,Large Inland Rivers
+CAMP,9505800,"West Clear Creek near Camp Verde, AZ",241,34.538636,-111.694036,9505800,"West Clear Creek near Camp Verde, AZ",34.538636,-111.694036,Reference
+ANDR,9522000,"Colorado River at NIB, above Morelos Dam, AZ",246700,32.718659,-114.718844,9522000,"Colorado River at NIB, above Morelos Dam, AZ",32.718659,-114.718844,Coastal Rivers
+SALT,10168000,"Little Cottonwood Creek at Salt Lake City, UT",46,40.663836,-111.90188,10168000,"Little Cottonwood Creek at Salt Lake City, UT",40.663836,-111.90188,Urban
+JSAL,10171000,"Jordan River at Salt Lake City, UT",3438,40.733557,-111.92327,10171000,"Jordan River at Salt Lake City, UT",40.733557,-111.92327,Large Inland Rivers
+FORT,10172200,"Red Butte Creek at Fort Douglas near Salt Lake City, UT",7.25,40.779946,-111.806045,10172200,"Red Butte Creek at Fort Douglas near Salt Lake City, UT",40.779946,-111.806045,Reference
+TRUC,10343500,Sagehen C nr Truckee CA,10.5,39.431572,-120.237979,10343500,Sagehen C nr Truckee CA,39.431572,-120.237979,Reference
+CLAR,10350340,"Truckee River near Tracy, NV",1580,39.556579,-119.553236,10350340,"Truckee River near Tracy, NV",39.556579,-119.553236,Large Inland Rivers
+PRAD,11074000,"Santa Ana River below Prado Dam, CA",2258,33.883349,-117.64533,11074000,"Santa Ana River below Prado Dam, CA",33.883349,-117.64533,Coastal Rivers
+TOKO,11206820,"Marble Fork Kaweah R ab Horse C nr Lodgepole, CA",7.65,36.608554,-118.688709,11206820,"Marble Fork Kaweah R ab Horse C nr Lodgepole, CA",36.611667,-118.701667,Reference
+HAPP,11264500,"Merced R at Happy Isles Bridge nr Yosemite, CA",181,37.731315,-119.559051,11264500,"Merced R at Happy ISles Bridge nr Yosemite, CA",37.731593,-119.558774,Reference
+CROW,11274538,"Orestimba Creek near Crows Landing, CA",177.9,37.413547,-121.016041,11274538,"Orestimba Creek near Crows Landing, CA",37.413547,-121.016041,Agriculture
+VERN,11303500,"San Joaquin River near Vernalis, CA",13539,37.676041,-121.266329,11303500,"San Joaquin River near Vernalis, CA",37.676041,-121.266329,Coastal Rivers
+FREE,11447650,"Sacramento River at Freeport, CA",23720,38.45602,-121.501344,11447650,"Sacramento River at Freeport, CA",38.45602,-121.501344,Coastal Rivers
+SKOK,12056500,"North Fork Skokomish River near Hdsprt, WA",57.2,47.514257,-123.329887,12056500,"North Fork Skokomish River near Hdsprt, WA",47.514257,-123.329887,Reference
+MAZA,12447390,"Andrews Creek near Mazama, WA",22.1,48.822924,-120.145925,12447390,"Andrews Creek near Mazama, WA",48.822924,-120.145925,Reference
+GRGR,12505450,"Granger Drain at Granger, WA",62,46.343463,-120.186995,12505450,"Granger Drain at Granger, WA",46.343463,-120.186995,Agriculture
+KION,12510500,"Yakima River at Kiona, WA",5615,46.253467,-119.478079,12510500,"Yakima River at Kiona, WA",46.253467,-119.478079,Large Inland Rivers
+REXB,13056500,"Henrys Fork near Rexburg, ID",2920,43.825833,-111.905,13056500,"Henrys Fork near Rexburg, ID",43.825833,-111.905,Large Inland Rivers
+TWIN,13092747,"Rock Creek at Twin Falls, ID 2",259,42.5625,-114.494722,13092747,"Rock Creek at Twin Falls, ID",42.5625,-114.494722,Agriculture
+KING,13154500,"Snake River at King Hill, ID",35800,43.002222,-115.2025,13154500,"Snake River at King Hill, ID",43.002222,-115.2025,Large Inland Rivers
+BLUE,14161500,"Lookout Creek near Blue River, OR",24.1,44.209571,-122.256733,14161500,"Lookout Creek near Blue River, OR",44.209571,-122.256733,Reference
+MTAN,14201300,"Zollner Creek near Mt. Angel, OR",15,45.100398,-122.82176,14201300,"Zollner Creek near Mt. Angel, OR",45.100398,-122.82176,Agriculture
+MEAC,14205400,"East Fork Dairy Creek near Meachan Corner, OR",33.8,45.682336,-123.069553,14205400,"East Fork Dairy Creek near Meachan Corner, OR",45.682336,-123.069553,Reference
+DURH,14206950,"Fanno Creek at Durham, OR",31.5,45.403452,-122.754819,14206950,"Fanno Creek at Durham, OR",45.403452,-122.754819,Urban
+PORT,14211720,"Willamette River at Portland, OR",11200,45.5175,-122.669167,14211720,"Willamette River at Portland, OR",45.5175,-122.669167,Large Inland Rivers
+QUIN,14246900,"Columbia River near Beaver Army Terminal, OR",256900,46.181221,-123.183454,14246900,"Columbia River near Beaver Army Terminal, OR",46.181221,-123.183454,Coastal Rivers
+TALK,15292700,"Talkeetna R nr Talkeetna, AK",2010,62.346439,-150.019201,15292700,"Talkeetna R nr Talkeetna, AK",62.346439,-150.019201,Reference
+PILO,15565447,"Yukon River at Pilot Station, AK",321000,61.933687,-162.882936,15565447,"Yukon River at Pilot Station, AK",61.933687,-162.882936,Coastal Rivers
+HONO,16618000,"Kahakuloa Stream near Honokohau, Maui, HI",3.4,20.978694,-156.5545,16618000,"Kahakuloa Stream near Honokohau, Maui, HI",20.978694,-156.5545,Reference
+VICK,3.22023E+14,"Mississippi River above Vicksburg, MS",1131100,32.339722,-90.9125,COMPUTED,Difference of streamflow at 07289000 (Miss R at Vicksburg) and 07288955 (Yazoo R bl Steele Bayou),32.339722,-90.9125,Large Inland Rivers
+NEWP,3.9434E+14,"Sugar Creek at New Palestine, IN",92.6,39.727821,-85.879425,3361650,"Sugar Creek at New Palestine, IN",39.714211,-85.885536,Agriculture
+MORA,4.02114E+14,"Big Thompson bl Moraine Park nr Estes Park, CO",39.8,40.353873,-105.584168,4.02114E+14,"Big Thompson bl Moraine Park nr Estes Park, CO",40.353873,-105.584168,Reference
