@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landslides-Viz!</title>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <!-- plotly cdn -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- d3 cdn -->
+    <script src="{{ url_for('static', filename='js/d3.min.js') }}"></script>
+
+    <!-- bootstrap stylesheets and js-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+
+
+    <!-- our stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- vis.js dependencies -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/vis.css') }}" type="text/css">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/vis.js') }}"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" style="text-align: center;padding:40px;margin-top:20px;margin-bottom:20px;background-color:#5C80BC;">
+            <h1>Exploration of Landslides</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Network Visualization of the Distribution of Landslide Deaths</h2>
+        <div class="row" style="margin-bottom:10px">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-md-12">
+                        <div id="mynetwork" style="margin-bottom:10px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2>Geographic Visualization of Landslide Occurances</h2>
+        <!-- The div where we will inject our map -->
+        <div class="row" style="margin-bottom:10px">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-md-12">
+                        <div id="map" style="margin-bottom:10px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2>Trends and Landslide Triggers by Country</h2>
+        <div class="row" style="margin-bottom:10px">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-md-12">
+                        <h5>Select Country:</h5>
+                        <select id="selDataset" onchange="optionChanged(this.value)"></select>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="timePlot"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="pie"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Histogram on Landslide Distances by Continents</h2>
+        <div class="row" style="margin-bottom:10px">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="radio" style="margin-left:350px">
+                        <label class="radio-inline">
+                            <input type="radio" name="continent" id="inlineRadio1" value="AF" onclick="change(this.value)" checked> Africa
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="continent" id="inlineRadio2" value="AS" onclick="change(this.value)"> Asia
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="continent" id="inlineRadio3" value="EU" onclick="change(this.value)"> Europe
+                        </label>
+
+                        <label class="radio-inline">
+                            <input type="radio" name="continent" id="inlineRadio3" value="NaN" onclick="change(this.value)"> North America
+                        </label>
+
+                        <label class="radio-inline">
+                            <input type="radio" name="continent" id="inlineRadio3" value="OC" onclick="change(this.value)"> Oceania
+                        </label>
+
+                        <label class="radio-inline">
+                            <input type="radio" name="continent" id="inlineRadio3" value="SA" onclick="change(this.value)"> South America
+                        </label>
+                    </div>
+
+                    <svg class="d3" width="960" height="500"></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- our js script -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+#mynetwork {
+/*     width: 100vh;
+    height: 80vh;
+    align-content: center;
+     */ 
+   margin: auto;
+   height: 500px;
+   width: 100%;
+   overflow: hidden
+}
+
+#map {
+   margin: auto;
+   height: 500px;
+   width: 100%;
+   overflow: hidden
+}
+
+
+.leaflet-popup-content {
+  text-align: center;
+}
+
+.legend {
+  line-height: 18px;
+  color: #555;
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+.info {
+  padding: 6px 8px;
+  font: 14px/20px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+.info h4 {
+  margin: 0 0 5px;
+  color: #777;
+}
+
+.switch input {display:none;}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+.slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+
+  /* d3 plots */
+  .bar rect {
+    fill: #5C80BC;
+  }
+  
+  .bar text {
+    fill: #fff;
+    font: 10px sans-serif;
+  }
+
+
+  hr { 
+    display: block;
+    margin : auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style: inset;
+    border-width: 8px;
+    background-color: #5C80BC;
+    width: 75%;
+}
+
+
+.d3 {
+  margin-left:100px;
+}
+
+/* add radio button styling */
+/* input[type="radio"]{
+  margin: 0 5px 0 5px;
+} */
+
